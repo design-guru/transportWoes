@@ -1,5 +1,9 @@
+
+
 body {
     background: black;
+    margin-left: 90px;
+    margin-right: 90px;
   }
 
   img {
@@ -24,29 +28,43 @@ body {
     z-index: 2;
   }
 
+  div.container {
+  background-image: url("../images/train.jpg");
+  border: 2px solid white;
+  border-radius: 10px;
+  height: 220px;
+  }
+
   div.item {
-    background: black;
     color: red;
     float: left;
     border-radius: 10px;
     text-align: center;
     width: auto;
-    margin: 0px 4px 0px 4px;
-    padding: 10px;
+    margin: 10px 4px 0px 4px;
+    padding: 30px;
   }
 
   .title {
     color: white;
-    background: blue;
     border-radius: 20px;
     text-align: center;
-    height: 60px;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: 90px;
+    margin-right: 90px;
+    padding-top: 15px;
     line-height: 20px;
+    font-size: 20px;
   }
 
-  .lineup {
+   .subtitle {
+    color: lightblue;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 10px;
+  }
+
+  .lineup-gif {
     margin-top: 20px;
     height: 206px;
   }
@@ -61,6 +79,7 @@ body {
     position: relative;
     top: 20px;
     left: 39%;
+    color: blue;
   }
 
   #add-vehicle {
