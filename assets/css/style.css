@@ -1,0 +1,70 @@
+body {
+    background: black;
+  }
+
+  img {
+    border: 2px solid red;
+    border-radius: 20px;
+    position: relative;
+    top: -55px;
+    left: 0px;
+  }
+
+  p {
+    border: 2px solid red;
+    color: red;
+    font-weight: 800;
+    border-radius: 20px;
+    background: black;
+    position: relative;
+    top: 165px;
+    left: 0px;
+    height: 32px;
+    line-height: 32px;
+    z-index: 2;
+  }
+
+  div.item {
+    background: black;
+    color: red;
+    float: left;
+    border-radius: 10px;
+    text-align: center;
+    width: auto;
+    margin: 0px 4px 0px 4px;
+    padding: 10px;
+  }
+
+  .title {
+    color: white;
+    background: blue;
+    border-radius: 20px;
+    text-align: center;
+    height: 60px;
+    margin-left: 70px;
+    margin-right: 70px;
+    line-height: 20px;
+  }
+
+  .lineup {
+    margin-top: 20px;
+    height: 206px;
+  }
+
+  .vehicle {
+    position: relative;
+    left: 36%;
+    margin: 5px;
+  }
+
+  #vehicle-input {
+    position: relative;
+    top: 20px;
+    left: 39%;
+  }
+
+  #add-vehicle {
+    position: relative;
+    top: -2px;
+    left: 41%;
+  }
