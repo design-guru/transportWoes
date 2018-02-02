@@ -1,4 +1,5 @@
-var vehicles = ["Planes", "Trains", "Cars", "Helicopters", "Boats", "Tractors"];
+      
+      var vehicles = [ "Boat", "Tractor", "Plane", "Train", "Car", "Helicopter", "Taxi" ];
 
       function displayVehicles() {
 
@@ -80,6 +81,7 @@ var vehicles = ["Planes", "Trains", "Cars", "Helicopters", "Boats", "Tractors"];
       });
 
       $(document).on("click", ".vehicle", displayVehicles);
+      
       $("#buttons-view").empty();
       
       displayButtons();
