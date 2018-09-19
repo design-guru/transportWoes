@@ -33,12 +33,15 @@ body {
   border: 2px solid white;
   border-radius: 10px;
   height: 220px;
+  width: 90vw;
+  background-repeat: no-repeat;
+  background-size: cover;
   }
 
   div.item {
     color: red;
     float: left;
-    border-radius: 10px;
+    border-radius: 5px;
     text-align: center;
     width: auto;
     margin: 10px 4px 0px 4px;
@@ -51,7 +54,7 @@ body {
     text-align: center;
     margin-left: 90px;
     margin-right: 90px;
-    padding-top: 15px;
+    padding-top: 25px;
     line-height: 20px;
     font-size: 20px;
   }
@@ -86,4 +89,10 @@ body {
     position: relative;
     top: -2px;
     left: 41%;
+  }
+
+  .help-text {
+    color: white;
+    text-align: center;
+    font-size: 1rem;
   }
